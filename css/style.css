@@ -134,8 +134,20 @@ img {
         width: 100%;
         font-size: 1.5rem;
     }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
 }
 
-/* @media all and (max-width: 480px){
-    
-} */
+@media all and (max-width: 480px){
+        
+} 
