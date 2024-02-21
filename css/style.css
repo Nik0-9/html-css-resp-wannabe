@@ -128,12 +128,18 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+@media all and (max-width: 1140px){
+    .container{
+        width: calc(100% - 15px);
+    }
+}
 
 @media all and (max-width: 768px) {
     .container {
         width: 100%;
         /* font-size: 1.5rem; */
     }
+}
 
     /* h1{
         font-size: 3rem;
@@ -156,4 +162,4 @@ img {
             flex-wrap: wrap;
             align-items: center;
         }
-} 
+}
